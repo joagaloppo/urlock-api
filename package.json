@@ -1,0 +1,24 @@
+{
+  "name": "api-urlock.net",
+  "version": "1.0.0",
+  "description": "API for urlock.net",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index.js"
+  },
+  "keywords": [
+    "API"
+  ],
+  "author": "Joaquin Galoppo",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.25.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
